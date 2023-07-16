@@ -1,0 +1,27 @@
+# Hurdle Rush - Gameplay Algorithm
+
+1. Initialize the game with the player's avatar and the starting position.
+2. Connect the user's MetaMask wallet to the game website for web3 integration.
+3. Start the game loop:
+   - Continuously listen for keyboard inputs to control the player's movements.
+   - Detect collisions with hurdles and calculate the number of cleared hurdles.
+   - Update the player's position, velocity, and other gameplay variables accordingly.
+   - Periodically check if the player has cleared a certain number of hurdles for NFT rewards.
+   - Update the RUN token balance based on the number of cleared hurdles.
+4. Reward NFTs:
+   - When the player reaches a certain hurdle milestone, randomly select a winner for an NFT.
+   - Mint the unique NFT on the blockchain using smart contracts.
+   - Display the NFT reward notification to the winner.
+5. Allow players to mint NFTs:
+   - Implement a minting mechanism within the game's UI for NFT winners.
+   - Enable players to mint their NFTs directly into their MetaMask wallets.
+6. Community and Trading:
+   - Foster an active community of players and NFT collectors.
+   - Implement a trading platform or integrate with existing NFT marketplaces for players to trade their earned NFTs.
+7. Future Development:
+   - Plan and execute updates and improvements based on user feedback and community suggestions.
+   - Introduce multiplayer modes and collaborations with other web3 projects to enhance the gaming experience.
+
+---
+
+The algorithm outlines the gameplay flow of Hurdle Rush, detailing how players control the avatar, earn rewards, and interact with smart contracts for token and NFT handling. The game aims to provide a seamless web3 experience and foster a vibrant community of players and collectors.
